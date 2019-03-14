@@ -1,0 +1,24 @@
+{
+  "name": "server_web",
+  "version": "1.0.1",
+  "description": "Restaurant en ligne",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts"
+  },
+  "author": "NajBaby",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "body-parser": "^1.18.3",
+    "class-validator": "^0.9.1",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "typeorm": "^0.2.15-rc.2"
+  }
+}
